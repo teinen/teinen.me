@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://zen-jones-85c70c.netlify.com/* https://teinen.me/:splat 301!
