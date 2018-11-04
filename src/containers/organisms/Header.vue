@@ -12,18 +12,17 @@
     </nav>
 
     <!-- Toggle nav button for tablet/mobile -->
-    <TopNavButton></TopNavButton>
+    <TopNavButtonComponent />
   </header>
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import Component from "vue-class-component";
+import { Component, Vue } from "vue-property-decorator";
 import TopNavButton from "@/components/atomic/TopNavButton.vue";
 
 @Component({
   components: {
-    TopNavButton: TopNavButton
+    TopNavButtonComponent: TopNavButton
   }
 })
 export default class Header extends Vue {
