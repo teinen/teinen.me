@@ -2,9 +2,6 @@
   <div id="app">
     <HeaderComponent />
 
-
-
-
     <FooterComponent />
   </div>
 </template>
