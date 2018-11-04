@@ -1,29 +1,92 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <HeaderComponent />
+
+
+
+
+    <FooterComponent />
   </div>
 </template>
 
+<script lang="ts">
+import Vue from "vue";
+import Header from "@/containers/organisms/Header.vue";
+import Footer from "@/containers/organisms/Footer.vue";
+
+export default Vue.extend ({
+  components: {
+    "HeaderComponent": Header,
+    "FooterComponent": Footer,
+  }
+});
+</script>
+
+
 <style lang="scss">
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@font-face {
+  font-family: SmartFont;
+  font-style: normal;
+  src: url('./assets/fonts/smart-font-ui.otf')
 }
-#nav {
+
+html {
+  font-family: SmartFont, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  background-color: #DEDEDE;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Main style */
+.main {
+  height: calc(100vh - 100px);
+}
+
+/* main container */
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 960px) {
+    max-width: 100vw;
+    margin: 0 20px;
+  }
+}
+
+/* contents */
+section {
+  height: 100%;
+  margin: 100px 0;
+}
+
+.card {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px #ccc;
+  height: calc(100vh - 200px);
   padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #28385E;
+  font-size: 3.0em;
+  padding: 10px;
+
+  &::after {
+    border-bottom: 4px solid #28385E;
+    content: '';
+    display: block;
+    width: 100%;
   }
 }
 </style>
