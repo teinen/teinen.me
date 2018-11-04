@@ -9,15 +9,15 @@
 <script>
 export default {
   methods: {
-    toggleTopNav () {
-      const header = document.querySelector('a.menu-button');
-      const menuButton = document.querySelector('header');
+    toggleTopNav() {
+      const header = document.querySelector("a.menu-button");
+      const menuButton = document.querySelector("header");
 
       header.classList.toggle("active");
       menuButton.classList.toggle("active");
     }
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>

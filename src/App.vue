@@ -11,10 +11,10 @@ import Vue from "vue";
 import Header from "@/containers/organisms/Header.vue";
 import Footer from "@/containers/organisms/Footer.vue";
 
-export default Vue.extend ({
+export default Vue.extend({
   components: {
-    "HeaderComponent": Header,
-    "FooterComponent": Footer,
+    HeaderComponent: Header,
+    FooterComponent: Footer
   }
 });
 </script>
@@ -24,27 +24,29 @@ export default Vue.extend ({
 @font-face {
   font-family: SmartFont;
   font-style: normal;
-  src: url('./assets/fonts/smart-font-ui.otf')
+  src: url("./assets/fonts/smart-font-ui.otf");
 }
 
 html {
-  font-family: SmartFont, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: SmartFont, "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background-color: #DEDEDE;
+  background-color: #dedede;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
 }
 
-/* Main style */
-.main {
+#app {
   height: calc(100vh - 100px);
 }
 
@@ -75,13 +77,13 @@ section {
 }
 
 h1 {
-  color: #28385E;
-  font-size: 3.0em;
+  color: #28385e;
+  font-size: 3em;
   padding: 10px;
 
   &::after {
-    border-bottom: 4px solid #28385E;
-    content: '';
+    border-bottom: 4px solid #28385e;
+    content: "";
     display: block;
     width: 100%;
   }

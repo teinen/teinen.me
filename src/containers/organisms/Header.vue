@@ -21,22 +21,22 @@ import Vue from "vue";
 import Component from "vue-class-component";
 import TopNavButton from "@/components/atomic/TopNavButton.vue";
 
-@Component ({
+@Component({
   components: {
-    "TopNavButton": TopNavButton
+    TopNavButton: TopNavButton
   }
 })
 export default class Header extends Vue {
-  data () {
+  data() {
     return {
-      title: 'teinen.github.io',
+      title: "teinen.github.io",
       headerContents: [
-        { title: 'ABOUT',  url: '/'},
-        { title: 'SKILL',  url: '/skill'},
-        { title: 'CAREER', url: '/career'},
-        { title: 'WORK',   url: '/work'},
+        { title: "ABOUT", url: "/" },
+        { title: "SKILL", url: "/skill" },
+        { title: "CAREER", url: "/career" },
+        { title: "WORK", url: "/work" }
       ]
-    }
+    };
   }
 }
 </script>
@@ -44,8 +44,8 @@ export default class Header extends Vue {
 <style lang="scss" scoped>
 header {
   align-items: center;
-  background-color: #28385E;
-  border-bottom: 8px solid #516C8D;
+  background-color: #28385e;
+  border-bottom: 8px solid #516c8d;
   display: flex;
   height: 80px;
   justify-content: center;
@@ -76,11 +76,10 @@ header {
   }
 }
 
-
 /* navigation */
 @mixin active-link($width: 0) {
   border-bottom: 2px solid #ffffff;
-  content: '';
+  content: "";
   display: block;
   width: $width;
 }
@@ -111,7 +110,7 @@ nav {
 
         &::after {
           @include active-link();
-          transition: all .3s;
+          transition: all 0.3s;
         }
 
         &:hover::after {

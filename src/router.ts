@@ -28,8 +28,7 @@ export default new Router({
     {
       path: "/work",
       name: "work",
-      component: () =>
-        import(/* webpackChunkName: "work" */ "./pages/Work.vue")
+      component: () => import(/* webpackChunkName: "work" */ "./pages/Work.vue")
     }
   ]
 });

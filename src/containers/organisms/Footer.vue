@@ -16,21 +16,21 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
-      copyright: '© 2018 Akira Kanno',
-      twitterUrl: 'https://twitter.com/tei_nen',
-      githubUrl: 'https://github.com/teinen',
-    }
+      copyright: "© 2018 Akira Kanno",
+      twitterUrl: "https://twitter.com/tei_nen",
+      githubUrl: "https://github.com/teinen"
+    };
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
 footer {
   align-items: center;
-  background-color: #454C50;
-  border-top: solid 8px #6E777C;
+  background-color: #454c50;
+  border-top: solid 8px #6e777c;
   bottom: 0;
   color: #ffffff;
   display: flex;
