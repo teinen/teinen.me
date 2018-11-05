@@ -1,19 +1,7 @@
 <template>
   <footer>
-    <div class="social">
-      <!-- Twitter icon -->
-      <SocialIconComponent
-        urlProp="https://twitter.com/tei_nen"
-        iconImageProp="twitter.svg"
-        altProp="Twitter"
-      />
-      <!-- GitHub icon -->
-      <SocialIconComponent
-        urlProp="https://github.com/teinen"
-        iconImageProp="github.png"
-        altProp="GitHub"
-      />
-    </div>
+    <!-- Social icons -->
+    <FooterSocialIconsComponent />
 
     <!-- Copyright -->
     <CopyrightComponent copyrightProp="© 2018 Akira Kanno" />
@@ -22,12 +10,12 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import SocialIcon from "@/components/atomic/SocialIcon.vue";
+import FooterSocialIcons from "@/components/molecules/FooterSocialIcons.vue";
 import Copyright from "@/components/atomic/Copyright.vue";
 
 @Component({
   components: {
-    SocialIconComponent: SocialIcon,
+    FooterSocialIconsComponent: FooterSocialIcons,
     CopyrightComponent: Copyright
   }
 })
@@ -48,9 +36,5 @@ footer {
   justify-content: center;
   position: absolute;
   width: 100vw;
-}
-
-.social {
-  margin-bottom: 6px;
 }
 </style>
