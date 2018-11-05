@@ -28,7 +28,7 @@ import TopNavButton from "@/components/atomic/TopNavButton.vue";
 export default class Header extends Vue {
   data() {
     return {
-      title: "teinen.github.io",
+      title: "teinen.me",
       headerContents: [
         { title: "ABOUT", url: "/" },
         { title: "SKILL", url: "/skill" },
