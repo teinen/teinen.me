@@ -1,29 +1,37 @@
 <template>
   <footer>
     <div class="social">
-      <a :href=twitterUrl target="_blank" rel="noopner">
-        <!-- <img src="@/assets/twitter.svg" alt="Twitter" width="30" /> -->
-      </a>
-
-      <a :href=githubUrl target="_blank" rel="noopner">
-        <!-- <img src="@/assets/github.png" alt="GitHub" width="30" /> -->
-      </a>
+      <!-- Twitter icon -->
+      <SocialIconComponent
+        urlProp="https://twitter.com/tei_nen"
+        iconImageProp="twitter.svg"
+        altProp="Twitter"
+      />
+      <!-- GitHub icon -->
+      <SocialIconComponent
+        urlProp="https://github.com/teinen"
+        iconImageProp="github.png"
+        altProp="GitHub"
+      />
     </div>
 
-    <span class="copyright">{{ copyright }}</span>
+    <!-- Copyright -->
+    <CopyrightComponent copyrightProp="© 2018 Akira Kanno" />
   </footer>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      copyright: "© 2018 Akira Kanno",
-      twitterUrl: "https://twitter.com/tei_nen",
-      githubUrl: "https://github.com/teinen"
-    };
+<script lang="ts">
+import { Component, Vue } from "vue-property-decorator";
+import SocialIcon from "@/components/atomic/SocialIcon.vue";
+import Copyright from "@/components/atomic/Copyright.vue";
+
+@Component({
+  components: {
+    SocialIconComponent: SocialIcon,
+    CopyrightComponent: Copyright
   }
-};
+})
+export default class Footer extends Vue {}
 </script>
 
 <style lang="scss" scoped>
