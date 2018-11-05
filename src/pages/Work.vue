@@ -1,7 +1,9 @@
 <template>
   <section id="work">
     <div class="card">
-      Oops!! Sorry, this page is developing now!
+      <div class="sorry">
+        Oops!! Sorry, this page is developing now!
+      </div>
     </div>
   </section>
 </template>
