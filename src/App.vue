@@ -92,7 +92,7 @@ h1 {
 
 /* tmp */
 .sorry {
-  font-size: 2.0em;
+  font-size: 2em;
   font-weight: bold;
 }
 </style>
