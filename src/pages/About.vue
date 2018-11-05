@@ -1,5 +1,9 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <section id="about">
+    <div class="card">
+      <div class="sorry">
+        Oops!! Sorry, this page is developing now!
+      </div>
+    </div>
+  </section>
 </template>

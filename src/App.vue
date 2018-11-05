@@ -2,6 +2,10 @@
   <div id="app">
     <HeaderComponent />
 
+    <div class="container">
+      <router-view></router-view>
+    </div>
+
     <FooterComponent />
   </div>
 </template>
@@ -18,7 +22,6 @@ export default Vue.extend({
   }
 });
 </script>
-
 
 <style lang="scss">
 @font-face {
@@ -50,7 +53,6 @@ html {
   height: calc(100vh - 100px);
 }
 
-/* main container */
 .container {
   max-width: 940px;
   margin: 0 auto;
@@ -61,7 +63,6 @@ html {
   }
 }
 
-/* contents */
 section {
   height: 100%;
   margin: 100px 0;
@@ -87,5 +88,11 @@ h1 {
     display: block;
     width: 100%;
   }
+}
+
+/* tmp */
+.sorry {
+  font-size: 2.0em;
+  font-weight: bold;
 }
 </style>
