@@ -77,19 +77,6 @@ section {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-  color: #28385e;
-  font-size: 3em;
-  padding: 10px;
-
-  &::after {
-    border-bottom: 4px solid #28385e;
-    content: "";
-    display: block;
-    width: 100%;
-  }
-}
-
 /* tmp */
 .sorry {
   font-size: 2em;
