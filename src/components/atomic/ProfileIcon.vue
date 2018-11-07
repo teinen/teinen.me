@@ -8,9 +8,7 @@
 import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
-export default class ProfileIcon extends Vue {
-
-}
+export default class ProfileIcon extends Vue {}
 </script>
 
 <style lang="scss" scoped>
@@ -30,7 +28,7 @@ export default class ProfileIcon extends Vue {
 }
 
 .icon {
-  border: 6px solid #516C8D;
+  border: 6px solid #516c8d;
   border-radius: 50%;
   width: 300px;
   height: 300px;

@@ -20,15 +20,15 @@ export default new Router({
         import(/* webpackChunkName: "skill" */ "./pages/Skill.vue")
     },
     {
-      path: "/career",
-      name: "career",
-      component: () =>
-        import(/* webpackChunkName: "career" */ "./pages/Career.vue")
-    },
-    {
       path: "/work",
       name: "work",
       component: () => import(/* webpackChunkName: "work" */ "./pages/Work.vue")
+    },
+    {
+      path: "/contact",
+      name: "contact",
+      component: () =>
+        import(/* webpackChunkName: "contact" */ "./pages/Contact.vue")
     }
   ]
 });

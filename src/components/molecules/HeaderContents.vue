@@ -5,10 +5,10 @@
       <HeaderLinkComponent urlProp="/" titleProp="ABOUT" />
       <!-- Skill page link -->
       <HeaderLinkComponent urlProp="/skill" titleProp="SKILL" />
-      <!-- Career link -->
-      <HeaderLinkComponent urlProp="/career" titleProp="CAREER" />
       <!-- Work link -->
       <HeaderLinkComponent urlProp="/work" titleProp="WORK" />
+      <!-- Contact link -->
+      <HeaderLinkComponent urlProp="/contact" titleProp="CONTACT" />
     </ul>
   </nav>
 </template>
