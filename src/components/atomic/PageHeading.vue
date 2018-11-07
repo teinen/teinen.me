@@ -1,5 +1,7 @@
 <template>
-  <h1>{{ content }}</h1>
+  <h1>
+    <span>{{ content }}</span>
+  </h1>
 </template>
 
 <script lang="ts">
@@ -19,14 +21,25 @@ export default class PageHeading extends Vue {
 <style lang="scss" scoped>
 h1 {
   color: #28385e;
-  font-size: 3em;
+  display: flex;
+  font-size: 2.5em;
+  justify-content: center;
   padding: 10px;
 
-  &::after {
-    border-bottom: 4px solid #28385e;
-    content: "";
-    display: block;
-    width: 100%;
+  span {
+    display: inline-block;
+    text-align: center;
+
+    &::after {
+      border-bottom: 4px solid #28385e;
+      content: "";
+      display: block;
+      width: 200px;
+
+      @media screen and (min-width: 480px) {
+        width: 400px;
+      }
+    }
   }
 }
 </style>
