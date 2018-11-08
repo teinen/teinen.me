@@ -73,7 +73,7 @@ section {
   border-radius: 3px;
   box-shadow: 0 2px 5px #ccc;
   height: calc(100vh - 200px);
-  padding: 30px;
+  padding: 20px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
 }
 

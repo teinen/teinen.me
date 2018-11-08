@@ -29,16 +29,13 @@ h1 {
   span {
     display: inline-block;
     text-align: center;
+    width: 100%;
 
     &::after {
-      border-bottom: 4px solid #28385e;
+      border-bottom: 3px solid #28385e;
       content: "";
       display: block;
-      width: 200px;
-
-      @media screen and (min-width: 480px) {
-        width: 400px;
-      }
+      width: 100%;
     }
   }
 }
