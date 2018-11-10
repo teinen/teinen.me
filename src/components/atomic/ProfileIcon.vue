@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="profile-image">
-      <img class="icon" src="@/assets/profile.png" />
+      <img class="icon" src="@/assets/images/profile.png" />
     </div>
   </div>
 </template>

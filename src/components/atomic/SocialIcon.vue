@@ -1,6 +1,6 @@
 <template>
   <a :href=url target="_blank" rel="noopner">
-    <img :src="require('@/assets/' + iconImage)" :alt=alt width="30" />
+    <img :src="require('@/assets/images/' + iconImage)" :alt=alt width="30" />
   </a>
 </template>
 
