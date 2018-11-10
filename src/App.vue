@@ -81,5 +81,7 @@ section {
 .sorry {
   font-size: 2em;
   font-weight: bold;
+  margin: 10px;
+  text-align: center;
 }
 </style>
