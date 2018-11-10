@@ -16,7 +16,6 @@ export default class HeaderTitle extends Vue {
 }
 </script>
 
-
 <style lang="scss" scoped>
 .title {
   color: #ffffff;

@@ -24,6 +24,8 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
+@import "./assets/css/normalize.css";
+
 @font-face {
   font-family: SmartFont;
   font-style: normal;
@@ -69,9 +71,9 @@ section {
 }
 
 .card {
-  background: #fff;
+  background: #ffffff;
   border-radius: 3px;
-  box-shadow: 0 2px 5px #ccc;
+  box-shadow: 0 2px 5px #cccccc;
   height: calc(100vh - 200px);
   padding: 20px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);

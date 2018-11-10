@@ -27,7 +27,8 @@ h1 {
   color: #28385e;
   display: inline-block;
   font-size: 2.5em;
-  padding: 10px 0;
+  margin: 0;
+  padding: 5px 0;
   position: relative;
 
   &::after {
