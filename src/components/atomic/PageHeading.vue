@@ -26,7 +26,17 @@ export default class PageHeading extends Vue {
 h1 {
   color: #28385e;
   display: inline-block;
-  font-size: 2.5em;
+
+  @media screen and (max-width: 320px) {
+    font-size: 1.8em;
+  }
+
+  font-size: 2em;
+
+  @media screen and (min-width: 960px) {
+    font-size: 2.5em;
+  }
+
   margin: 0;
   padding: 5px 0;
   position: relative;

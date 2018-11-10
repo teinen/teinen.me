@@ -26,5 +26,10 @@ export default class ProfileIcon extends Vue {}
   border-radius: 50%;
   width: 250px;
   height: 250px;
+
+  @media screen and (max-width: 320px) {
+    width: 150px;
+    height: 150px;
+  }
 }
 </style>

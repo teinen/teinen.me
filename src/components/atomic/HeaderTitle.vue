@@ -19,7 +19,7 @@ export default class HeaderTitle extends Vue {
 <style lang="scss" scoped>
 .title {
   color: #ffffff;
-  font-size: 1.8em;
+  font-size: 2em;
 
   /* For small display (e.g. iPhone SE) */
   @media screen and (max-width: 320px) {
