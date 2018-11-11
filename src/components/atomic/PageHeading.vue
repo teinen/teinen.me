@@ -21,6 +21,7 @@ export default class PageHeading extends Vue {
 <style lang="scss" scoped>
 .heading {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 h1 {
