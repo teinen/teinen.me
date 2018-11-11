@@ -4,7 +4,7 @@
     <FooterSocialIconsComponent />
 
     <!-- Copyright -->
-    <CopyrightComponent copyrightProp="© 2018 Akira Kanno" />
+    <CopyrightComponent copyrightProp="2018 Akira Kanno" />
   </footer>
 </template>
 

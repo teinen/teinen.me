@@ -1,5 +1,5 @@
 <template>
-  <span>{{ copyright }}</span>
+  <span>&copy; {{ copyright }}</span>
 </template>
 
 <script lang="ts">
