@@ -4,7 +4,7 @@
     <FooterSocialIconsComponent />
 
     <!-- Copyright -->
-    <CopyrightComponent copyrightProp="Â© 2018 Akira Kanno" />
+    <CopyrightComponent copyrightProp="© 2018 Akira Kanno" />
   </footer>
 </template>
 
@@ -34,7 +34,6 @@ footer {
   flex-flow: column nowrap;
   height: 80px;
   justify-content: center;
-  position: relative;
   width: 100vw;
 }
 </style>

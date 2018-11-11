@@ -2,7 +2,7 @@
   <div>
     <HeaderComponent />
 
-    <div class="container">
+    <div class="main">
       <router-view></router-view>
     </div>
 
@@ -50,26 +50,21 @@ html {
   margin: 0;
 }
 
-.container {
+.main {
+  min-height: calc(100vh - 200px);
+  margin: 100px auto auto auto;
   max-width: 940px;
-  margin: 0 auto;
 
   @media screen and (max-width: 960px) {
     max-width: 100vw;
-    margin: 0 20px;
+    margin: 100px 20px auto 20px;
   }
-}
-
-section {
-  height: 100%;
-  margin: 100px 0 0 0;
 }
 
 .card {
   background: #ffffff;
   border-radius: 3px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
-  height: 100%;
   margin: 20px 0;
   padding: 20px;
 }
