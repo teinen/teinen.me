@@ -25,8 +25,8 @@ export default class ProfileIcon extends Vue {}
   margin: 20px 0;
 
   @media screen and (max-width: 320px) {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     margin: 10px 0;
   }
 }

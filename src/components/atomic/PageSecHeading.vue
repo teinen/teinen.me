@@ -26,7 +26,13 @@ export default class PageSecHeading extends Vue {
 h2 {
   color: #28385e;
   display: inline-block;
-  font-size: 2em;
+
+  font-size: 1.8em;
+
+  @media screen and (min-width: 960px) {
+    font-size: 2em;
+  }
+
   margin: 15px 0;
   padding: 0 40px;
   position: relative;

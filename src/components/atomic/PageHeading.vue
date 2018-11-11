@@ -27,10 +27,6 @@ h1 {
   color: #28385e;
   display: inline-block;
 
-  @media screen and (max-width: 320px) {
-    font-size: 1.8em;
-  }
-
   font-size: 2em;
 
   @media screen and (min-width: 960px) {

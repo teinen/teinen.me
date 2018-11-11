@@ -21,12 +21,6 @@ export default class HeaderTitle extends Vue {
   color: #ffffff;
   font-size: 2em;
 
-  /* For small display (e.g. iPhone SE) */
-  @media screen and (max-width: 320px) {
-    font-size: 1.5em;
-  }
-
-  /* For tablet */
   @media screen and (min-width: 960px) {
     font-size: 2.3em;
   }
