@@ -9,7 +9,7 @@
 
       <!-- Name section -->
       <PageSecHeadingComponent contentProp="Name" />
-      <PageSecItemComponent itemProp="諦念(teinen)" />
+      <PageSecItemComponent itemProp="??(teinen)" />
 
       <!-- Age section -->
       <PageSecHeadingComponent contentProp="Age" />
