@@ -1,8 +1,6 @@
 <template>
-  <div class="main">
-    <div class="profile-image">
-      <img class="icon" src="@/assets/images/profile.png" />
-    </div>
+  <div class="profile-image">
+    <img class="icon" src="@/assets/images/profile.png" />
   </div>
 </template>
 
@@ -14,22 +12,22 @@ export default class ProfileIcon extends Vue {}
 </script>
 
 <style lang="scss" scoped>
-.main {
+.profile-image {
   display: flex;
-  height: 90%;
   justify-content: center;
-  padding-top: 20px;
 }
 
 .icon {
   border: 6px solid #516c8d;
   border-radius: 50%;
-  width: 250px;
-  height: 250px;
+  width: 230px;
+  height: 230px;
+  margin: 20px 0;
 
   @media screen and (max-width: 320px) {
     width: 150px;
     height: 150px;
+    margin: 10px 0;
   }
 }
 </style>

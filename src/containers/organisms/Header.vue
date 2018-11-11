@@ -37,9 +37,10 @@ header {
   justify-content: center;
   padding: 0 60px;
   position: fixed;
+  transition: height 0.3s;
   top: 0;
   width: 100vw;
-  transition: height 0.3s;
+  z-index: 9999;
 
   /* Title position for PC */
   @media screen and (min-width: 960px) {

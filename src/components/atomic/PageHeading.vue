@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div class="heading">
     <h1>{{ content }}</h1>
   </div>
 </template>
@@ -19,7 +19,7 @@ export default class PageHeading extends Vue {
 </script>
 
 <style lang="scss" scoped>
-.header {
+.heading {
   text-align: center;
 }
 
