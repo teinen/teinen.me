@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
     <HeaderComponent />
 
     <div class="container">
@@ -37,7 +37,6 @@ html {
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
@@ -49,10 +48,6 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
-}
-
-#app {
-  height: calc(100vh - 100px);
 }
 
 .container {
@@ -67,16 +62,16 @@ html {
 
 section {
   height: 100%;
-  margin: 100px 0;
+  margin: 100px 0 0 0;
 }
 
 .card {
   background: #ffffff;
   border-radius: 3px;
-  box-shadow: 0 2px 5px #cccccc;
-  height: 100%;
-  padding: 20px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  height: 100%;
+  margin: 20px 0;
+  padding: 20px;
 }
 
 /* tmp */

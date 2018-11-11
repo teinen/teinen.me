@@ -34,7 +34,7 @@ footer {
   flex-flow: column nowrap;
   height: 80px;
   justify-content: center;
-  position: absolute;
+  position: relative;
   width: 100vw;
 }
 </style>
