@@ -8,7 +8,7 @@
       <!-- Work link -->
       <HeaderLinkComponent urlProp="/work" titleProp="WORK" />
       <!-- Contact link -->
-      <HeaderLinkComponent urlProp="/contact" titleProp="CONTACT" />
+      <HeaderLinkComponent urlProp="/accounts" titleProp="ACCOUNTS" />
     </ul>
   </nav>
 </template>

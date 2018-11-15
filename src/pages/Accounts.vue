@@ -2,7 +2,7 @@
   <section id="about">
     <div class="card">
       <!-- Page title -->
-      <PageHeadingComponent contentProp="Contact" />
+      <PageHeadingComponent contentProp="Accounts" />
 
       <!-- Email -->
       <PageSecHeadingComponent contentProp="Email" />
@@ -15,6 +15,10 @@
       <!-- GitHub -->
       <PageSecHeadingComponent contentProp="GitHub" />
       <PageSecHrefItemComponent itemProp="https://github.com/teinen" />
+
+      <!-- Qiita -->
+      <PageSecHeadingComponent contentProp="Qiita" />
+      <PageSecHrefItemComponent itemProp="https://qiita.com/teinen_qiita" />
 
       <!-- Forkwell -->
       <PageSecHeadingComponent contentProp="Forkwell" />
