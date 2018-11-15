@@ -12,6 +12,10 @@
       <PageSecHeadingComponent contentProp="Twitter" />
       <PageSecHrefItemComponent itemProp="https://twitter.com/tei_nen" />
 
+      <!-- Facebook -->
+      <PageSecHeadingComponent contentProp="Facebook" />
+      <PageSecHrefItemComponent itemProp="https://www.facebook.com/akira.kanno.961" />
+
       <!-- GitHub -->
       <PageSecHeadingComponent contentProp="GitHub" />
       <PageSecHrefItemComponent itemProp="https://github.com/teinen" />
