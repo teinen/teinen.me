@@ -46,7 +46,7 @@ import PageSecHrefItem from "@/components/atomic/PageSecHrefItem.vue";
     PageSecHrefItemComponent: PageSecHrefItem
   }
 })
-export default class Contact extends Vue {}
+export default class Accounts extends Vue {}
 </script>
 
 <style lang="scss" scoped>

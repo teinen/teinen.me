@@ -28,7 +28,7 @@ export default new Router({
       path: "/accounts",
       name: "accounts",
       component: () =>
-        import(/* webpackChunkName: "contact" */ "./pages/Accounts.vue")
+        import(/* webpackChunkName: "accounts" */ "./pages/Accounts.vue")
     }
   ]
 });

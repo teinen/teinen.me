@@ -7,7 +7,7 @@
       <HeaderLinkComponent urlProp="/skill" titleProp="SKILL" />
       <!-- Work link -->
       <HeaderLinkComponent urlProp="/work" titleProp="WORK" />
-      <!-- Contact link -->
+      <!-- Accounts link -->
       <HeaderLinkComponent urlProp="/accounts" titleProp="ACCOUNTS" />
     </ul>
   </nav>
