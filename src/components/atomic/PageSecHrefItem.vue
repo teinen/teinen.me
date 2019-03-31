@@ -1,6 +1,6 @@
 <template>
   <div class="sec-item">
-    <a :href=item target="_blank" rel="noopner">{{ item }}</a>
+    <a :href=item target="_blank" rel="noopener">{{ item }}</a>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <a :href=url target="_blank" rel="noopner">
+  <a :href=url target="_blank" rel="noopener">
     <img :src="require('@/assets/images/' + iconImage)" :alt=alt width="30" />
   </a>
 </template>
