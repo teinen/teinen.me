@@ -1,7 +1,6 @@
-<template>
-  <a :href=url target="_blank" rel="noopener">
-    <img :src="require('@/assets/images/' + iconImage)" :alt=alt width="30" />
-  </a>
+<template lang="pug">
+  a(:href="url" target="_blank" rel="noopener")
+    img(:src="require('@/assets/images/' + iconImage)" :alt="alt" width="30")
 </template>
 
 <script lang="ts">

@@ -1,11 +1,7 @@
-<template>
-  <footer>
-    <!-- Social icons -->
-    <FooterSocialIconsComponent />
-
-    <!-- Copyright -->
-    <CopyrightComponent :copyrightProp="copyrightText" />
-  </footer>
+<template lang="pug">
+  footer.global-footer
+    FooterSocialIconsComponent
+    CopyrightComponent(:copyrightProp="copyrightText")
 </template>
 
 <script lang="ts">
@@ -27,7 +23,7 @@ export default class Footer extends Vue {
 </script>
 
 <style lang="scss" scoped>
-footer {
+.global-footer {
   align-items: center;
   background-color: #454c50;
   border-top: solid 8px #6e777c;

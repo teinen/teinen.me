@@ -1,7 +1,6 @@
-<template>
-  <div class="profile-image">
-    <img class="icon" src="@/assets/images/profile.png" />
-  </div>
+<template lang="pug">
+  .profile-image
+    img.icon(src="@/assets/images/profile.png")
 </template>
 
 <script lang="ts">

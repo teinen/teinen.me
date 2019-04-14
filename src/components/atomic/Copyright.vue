@@ -1,5 +1,5 @@
-<template>
-  <span>&copy; {{ copyright }}</span>
+<template lang="pug">
+  span &copy; {{ copyright }}
 </template>
 
 <script lang="ts">

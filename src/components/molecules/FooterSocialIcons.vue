@@ -1,18 +1,15 @@
-<template>
-  <div class="social">
-    <!-- Twitter icon -->
-    <SocialIconComponent
+<template lang="pug">
+  .social
+    SocialIconComponent(
       urlProp="https://twitter.com/tei_nen"
       iconImageProp="twitter.svg"
       altProp="Twitter"
-    />
-    <!-- GitHub icon -->
-    <SocialIconComponent
+    )
+    SocialIconComponent(
       urlProp="https://github.com/teinen"
       iconImageProp="github.png"
       altProp="GitHub"
-    />
-  </div>
+    )
 </template>
 
 <script lang="ts">
