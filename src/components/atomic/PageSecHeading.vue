@@ -1,7 +1,6 @@
-<template>
-  <div class="sec-title">
-    <h2>{{ content }}</h2>
-  </div>
+<template lang="pug">
+  .sec-title
+    h2 {{ content }}
 </template>
 
 <script lang="ts">

@@ -1,7 +1,5 @@
-<template>
-  <div class="sec-item">
-    {{ item }}
-  </div>
+<template lang="pug">
+  .sec-item {{ item }}
 </template>
 
 <script lang="ts">

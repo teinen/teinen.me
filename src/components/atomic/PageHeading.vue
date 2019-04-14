@@ -1,7 +1,6 @@
-<template>
-  <div class="heading">
-    <h1>{{ content }}</h1>
-  </div>
+<template lang="pug">
+  .heading
+    h1 {{ content }}
 </template>
 
 <script lang="ts">
