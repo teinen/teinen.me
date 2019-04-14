@@ -1,16 +1,10 @@
-<template>
-  <nav>
-    <ul>
-      <!-- About page link -->
-      <HeaderLinkComponent urlProp="/" titleProp="ABOUT" />
-      <!-- Skill page link -->
-      <HeaderLinkComponent urlProp="/skill" titleProp="SKILL" />
-      <!-- Work link -->
-      <HeaderLinkComponent urlProp="/work" titleProp="WORK" />
-      <!-- Accounts link -->
-      <HeaderLinkComponent urlProp="/accounts" titleProp="ACCOUNTS" />
-    </ul>
-  </nav>
+<template lang="pug">
+  nav.global-nav
+    ul.global-nav-links
+      HeaderLinkComponent(urlProp="/" titleProp="ABOUT")
+      HeaderLinkComponent(urlProp="/skill" titleProp="SKILL")
+      HeaderLinkComponent(urlProp="/work" titleProp="WORK")
+      HeaderLinkComponent(urlProp="/accounts" titleProp="ACCOUNTS")
 </template>
 
 <script lang="ts">
@@ -26,7 +20,7 @@ export default class HeaderContents extends Vue {}
 </script>
 
 <style lang="scss" scoped>
-nav {
+.global-nav {
   font-size: 1.5em;
   position: absolute;
   right: 60px;
@@ -36,7 +30,7 @@ nav {
   }
 }
 
-ul {
+.global-nav-links {
   align-items: flex-end;
   display: flex;
   justify-content: space-between;

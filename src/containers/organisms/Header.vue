@@ -1,14 +1,8 @@
-<template>
-  <header>
-    <!-- Header title -->
-    <HeaderTitleComponent titleProp="teinen.me" />
-
-    <!-- Header contents -->
-    <HeaderContentsComponent />
-
-    <!-- Top navi button -->
-    <TopNavButtonComponent />
-  </header>
+<template lang="pug">
+  header.global-header
+    HeaderTitleComponent(titleProp="teinen.me")
+    HeaderContentsComponent
+    TopNavButtonComponent
 </template>
 
 <script lang="ts">
@@ -28,7 +22,7 @@ export default class Header extends Vue {}
 </script>
 
 <style lang="scss" scoped>
-header {
+.global-header {
   align-items: center;
   background-color: #28385e;
   border-bottom: 8px solid #516c8d;

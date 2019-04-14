@@ -1,7 +1,7 @@
-<template>
-  <li>
-    <router-link :to="url">{{ title }}</router-link>
-  </li>
+<template lang="pug">
+  li
+    router-link(:to="url")
+      | {{ title }}
 </template>
 
 <script lang="ts">

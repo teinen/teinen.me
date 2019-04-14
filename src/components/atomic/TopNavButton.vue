@@ -1,9 +1,8 @@
-<template>
-  <a class="menu-button" @click="toggleTopNav()">
-    <span></span>
-    <span></span>
-    <span></span>
-  </a>
+<template lang="pug">
+  a.menu-button(@click="toggleTopNav()")
+    span.menu-button-bar
+    span.menu-button-bar
+    span.menu-button-bar
 </template>
 
 <script>
@@ -36,7 +35,7 @@ export default {
   width: 40px;
   z-index: 3;
 
-  span {
+  & .menu-button-bar {
     background: #ffffff;
     display: block;
     height: 2px;
@@ -56,7 +55,7 @@ export default {
   }
 
   &.active {
-    span {
+    & .menu-button-bar {
       &:first-child {
         transform: translateY(9px) rotate(45deg);
       }

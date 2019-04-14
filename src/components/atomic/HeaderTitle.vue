@@ -1,5 +1,6 @@
-<template>
-  <span class="title">{{ title }}</span>
+<template lang="pug">
+  span.title
+    | {{ title }}
 </template>
 
 <script lang="ts">
