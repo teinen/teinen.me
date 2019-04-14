@@ -1,6 +1,6 @@
 <template>
   <li>
-    <router-link :to=url>{{ title }}</router-link>
+    <router-link :to="url">{{ title }}</router-link>
   </li>
 </template>
 
