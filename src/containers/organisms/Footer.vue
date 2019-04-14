@@ -4,7 +4,7 @@
     <FooterSocialIconsComponent />
 
     <!-- Copyright -->
-    <CopyrightComponent copyrightProp="2018 Akira Kanno" />
+    <CopyrightComponent :copyrightProp="copyrightText" />
   </footer>
 </template>
 
@@ -19,7 +19,11 @@ import Copyright from "@/components/atomic/Copyright.vue";
     CopyrightComponent: Copyright
   }
 })
-export default class Footer extends Vue {}
+export default class Footer extends Vue {
+  public get copyrightText(): string {
+    return `${new Date().getFullYear()} Akira Kanno`;
+  }
+}
 </script>
 
 <style lang="scss" scoped>
