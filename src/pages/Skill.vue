@@ -1,14 +1,9 @@
-<template>
-  <section id="skill">
-    <div class="card">
-      <!-- Page title -->
-      <PageHeadingComponent contentProp="Skill" />
-
-      <div class="sorry">
-        Oops!! Sorry, this page is developing now!
-      </div>
-    </div>
-  </section>
+<template lang="pug">
+  section(id="skill")
+    .card
+      PageHeadingComponent(contentProp="Skill")
+    .sorry
+      | Oops!! Sorry, this page is developing now!
 </template>
 
 <script lang="ts">

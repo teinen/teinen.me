@@ -1,14 +1,9 @@
-<template>
-  <section id="work">
-    <div class="card">
-      <!-- Page title -->
-      <PageHeadingComponent contentProp="Work" />
-
-      <div class="sorry">
-        Oops!! Sorry, this page is developing now!
-      </div>
-    </div>
-  </section>
+<template lang="pug">
+  section(id="work")
+    .card
+      PageHeadingComponent(contentProp="Work")
+    .sorry
+      | Oops!! Sorry, this page is developing now!
 </template>
 
 <script lang="ts">

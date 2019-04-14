@@ -1,26 +1,19 @@
-<template>
-  <section id="about">
-    <div class="card">
-      <!-- Page title -->
-      <PageHeadingComponent contentProp="Accounts" />
+<template lang="pug">
+  section(id="about")
+    .card
+      PageHeadingComponent(contentProp="Accounts")
 
-      <!-- Email -->
-      <PageSecHeadingComponent contentProp="Email" />
-      <PageSecItemComponent itemProp="teinen.github[at]gmail.com" />
+      PageSecHeadingComponent(contentProp="Email")
+      PageSecItemComponent(itemProp="teinen.github[at]gmail.com")
 
-      <!-- Twitter -->
-      <PageSecHeadingComponent contentProp="Twitter" />
-      <PageSecHrefItemComponent itemProp="https://twitter.com/tei_nen" />
+      PageSecHeadingComponent(contentProp="Twitter")
+      PageSecHrefItemComponent(itemProp="https://twitter.com/tei_nen")
 
-      <!-- GitHub -->
-      <PageSecHeadingComponent contentProp="GitHub" />
-      <PageSecHrefItemComponent itemProp="https://github.com/teinen" />
+      PageSecHeadingComponent(contentProp="GitHub")
+      PageSecHrefItemComponent(itemProp="https://github.com/teinen")
 
-      <!-- Qiita -->
-      <PageSecHeadingComponent contentProp="Qiita" />
-      <PageSecHrefItemComponent itemProp="https://qiita.com/teinen_qiita" />
-    </div>
-  </section>
+      PageSecHeadingComponent(contentProp="Qiita")
+      PageSecHrefItemComponent(itemProp="https://qiita.com/teinen_qiita")
 </template>
 
 <script lang="ts">
@@ -40,6 +33,3 @@ import PageSecHrefItem from "@/components/atomic/PageSecHrefItem.vue";
 })
 export default class Accounts extends Vue {}
 </script>
-
-<style lang="scss" scoped>
-</style>

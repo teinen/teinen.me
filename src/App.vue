@@ -1,13 +1,9 @@
-<template>
-  <div>
-    <HeaderComponent />
-
-    <div class="main">
-      <router-view></router-view>
-    </div>
-
-    <FooterComponent />
-  </div>
+<template lang="pug">
+  div
+    HeaderComponent
+    .main
+      router-view
+    FooterComponent
 </template>
 
 <script lang="ts">

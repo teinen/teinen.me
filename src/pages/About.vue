@@ -1,25 +1,18 @@
-<template>
-  <section id="about">
-    <div class="card">
-      <!-- Page title -->
-      <PageHeadingComponent contentProp="About" />
+<template lang="pug">
+  section(id="about")
+    .card
+      PageHeadingComponent(contentProp="About")
 
-      <!-- ProfileIcon -->
-      <ProfileIconComponent />
+      ProfileIconComponent
 
-      <!-- Name section -->
-      <PageSecHeadingComponent contentProp="Name" />
-      <PageSecItemComponent itemProp="諦念(teinen)" />
+      PageSecHeadingComponent(contentProp="Name")
+      PageSecItemComponent(itemProp="諦念(teinen)")
 
-      <!-- Age section -->
-      <PageSecHeadingComponent contentProp="Age" />
-      <PageSecItemComponent :itemProp="age" />
+      PageSecHeadingComponent(contentProp="Age")
+      PageSecItemComponent(:itemProp="age")
 
-      <!-- Job section -->
-      <PageSecHeadingComponent contentProp="Job" />
-      <PageSecItemComponent itemProp="Front-end developer" />
-    </div>
-  </section>
+      PageSecHeadingComponent(contentProp="Job")
+      PageSecItemComponent(itemProp="Front-end developer")
 </template>
 
 <script lang="ts">
@@ -44,6 +37,3 @@ export default class About extends Vue {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-</style>
