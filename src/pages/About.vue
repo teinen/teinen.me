@@ -13,7 +13,7 @@
 
       <!-- Age section -->
       <PageSecHeadingComponent contentProp="Age" />
-      <PageSecItemComponent itemProp="25 years old" />
+      <PageSecItemComponent :itemProp="age" />
 
       <!-- Job section -->
       <PageSecHeadingComponent contentProp="Job" />
@@ -37,7 +37,12 @@ import PageSecItem from "@/components/atomic/PageSecItem.vue";
     PageSecItemComponent: PageSecItem
   }
 })
-export default class About extends Vue {}
+export default class About extends Vue {
+  public get age(): string {
+    const age = new Date().getFullYear() - 1993;
+    return `${age} years old`;
+  }
+}
 </script>
 
 <style lang="scss" scoped>
